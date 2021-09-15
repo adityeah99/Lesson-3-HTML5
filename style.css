@@ -44,3 +44,23 @@ hr{
     padding: 0rem 0.5rem
 }
 
+.navigation{
+    background-color: var(--primarycolor);
+    color:white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link {
+    color:white;
+}
+
+
+
+.navigation .list-no-bullet-navpills{
+        text-align: right;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
