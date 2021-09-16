@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 :root{
-    --primary-color:#0E4E6D;
+    --primary-color:#4F46E5;
     --dark-gray:#374151;
     --off-white:#E5E7EB;
 }
@@ -65,13 +65,13 @@ padding:2rem;
 .navigation{
     background-color:var(--primary-color);
     color:white;
-    padding:0.5rem;
+    padding:0.25rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size:1.1rem;
+    font-size:1.5rem;
 }
 .navigation .link{
     color:white;
@@ -81,7 +81,7 @@ padding:2rem;
     text-align:right;
 }
 .navigation .link-active{
-    font-weight: bold;
+    font-weight: none;
 }
 
 
