@@ -36,7 +36,7 @@ hr{
 
 
 .list-no-bullet{
-    list-style: none;
+    
 }
 
 .list-no-bullet{
@@ -63,4 +63,38 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: #9CA3AF
+}
+.hero .hero-heading .main-heading{
+    color:var(--primarycolor)
+}
+.section{
+    padding:1rem
+}
+.section h2{
+    text-align: center;
+
+}
+.section-ow{
+    padding:2rem;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+
+.container{
+    text-align: center;
+    
 }
